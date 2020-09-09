@@ -1,0 +1,441 @@
+2020-09-07 18:54:31,833 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/1] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:54:31,840 WARN 3832 [-/127.0.0.1/-/7ms POST /pages/1] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 18:54:38,306 WARN 3832 [-/127.0.0.1/-/0ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:54:38,307 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 18:54:44,288 WARN 3832 [-/127.0.0.1/-/0ms POST /pages] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:54:44,289 WARN 3832 [-/127.0.0.1/-/1ms POST /pages] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 18:54:48,519 WARN 3832 [-/127.0.0.1/-/0ms PUT /pages] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:54:48,519 WARN 3832 [-/127.0.0.1/-/1ms PUT /pages] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 18:54:53,317 WARN 3832 [-/127.0.0.1/-/0ms PUT /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:54:53,319 WARN 3832 [-/127.0.0.1/-/2ms PUT /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 18:55:32,939 WARN 3832 [-/127.0.0.1/-/1ms PUT /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:55:32,939 WARN 3832 [-/127.0.0.1/-/1ms PUT /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 18:55:45,880 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 18:55:45,880 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:08:05,233 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:08:05,233 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:08:43,985 WARN 3832 [-/127.0.0.1/-/0ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:08:43,986 WARN 3832 [-/127.0.0.1/-/1ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:09:21,274 WARN 3832 [-/127.0.0.1/-/1ms POST /page] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:09:21,274 WARN 3832 [-/127.0.0.1/-/1ms POST /page] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:09:23,713 WARN 3832 [-/127.0.0.1/-/1ms POST /page/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:09:23,714 WARN 3832 [-/127.0.0.1/-/2ms POST /page/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:09:41,184 WARN 3832 [-/127.0.0.1/-/0ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:09:41,185 WARN 3832 [-/127.0.0.1/-/0ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:10:17,059 WARN 3832 [-/127.0.0.1/-/0ms DELETE /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:10:17,060 WARN 3832 [-/127.0.0.1/-/1ms DELETE /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:10:22,134 WARN 3832 [-/127.0.0.1/-/0ms DELETE /pages/2] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:10:22,134 WARN 3832 [-/127.0.0.1/-/0ms DELETE /pages/2] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:10:26,308 WARN 3832 [-/127.0.0.1/-/0ms DELETE /pages/1] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:10:26,309 WARN 3832 [-/127.0.0.1/-/1ms DELETE /pages/1] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-07 19:12:22,408 WARN 3832 [-/127.0.0.1/-/0ms PUT /pages/1] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-07 19:12:22,408 WARN 3832 [-/127.0.0.1/-/0ms PUT /pages/1] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 3832
+hostname: admindeMac-mini-2.local
+
+2020-09-08 08:45:36,228 WARN 4242 [-/127.0.0.1/-/3ms PUT /pages/1] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-08 08:45:36,229 WARN 4242 [-/127.0.0.1/-/4ms PUT /pages/1] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4242
+hostname: admindeMac-mini-2.local
+
+2020-09-08 08:45:43,107 WARN 4242 [-/127.0.0.1/-/0ms PUT /pages/1] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-08 08:45:43,107 WARN 4242 [-/127.0.0.1/-/0ms PUT /pages/1] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:13:70)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4242
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:20:20,282 ERROR 4362 [-/127.0.0.1/-/8ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:16:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4362
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:20:30,554 ERROR 4362 [-/127.0.0.1/-/1ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:16:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4362
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:21:30,300 ERROR 4363 [-/127.0.0.1/-/10ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4363
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:23:55,182 ERROR 4371 [-/127.0.0.1/-/7ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4371
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:25:27,454 ERROR 4371 [-/127.0.0.1/-/1ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4371
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:28:21,920 ERROR 4394 [-/127.0.0.1/-/8ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4394
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:29:03,835 ERROR 4394 [-/127.0.0.1/-/1ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4394
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:35:44,550 WARN 4399 [-/127.0.0.1/-/4ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-08 09:35:44,553 WARN 4399 [-/127.0.0.1/-/6ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4399
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:36:24,168 WARN 4405 [-/127.0.0.1/-/3ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-08 09:36:24,170 WARN 4405 [-/127.0.0.1/-/5ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4405
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:39:25,022 WARN 4405 [-/127.0.0.1/-/1ms POST /pages/] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-09-08 09:39:25,022 WARN 4405 [-/127.0.0.1/-/1ms POST /pages/] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 4405
+hostname: admindeMac-mini-2.local
+

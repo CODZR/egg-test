@@ -1,0 +1,105 @@
+2020-09-08 09:20:20,281 ERROR 4362 [-/127.0.0.1/-/8ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:16:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4362
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:20:30,551 ERROR 4362 [-/127.0.0.1/-/1ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:16:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4362
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:21:30,279 ERROR 4363 [-/127.0.0.1/-/10ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4363
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:23:55,172 ERROR 4371 [-/127.0.0.1/-/7ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4371
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:25:27,453 ERROR 4371 [-/127.0.0.1/-/1ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4371
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:28:21,919 ERROR 4394 [-/127.0.0.1/-/8ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4394
+hostname: admindeMac-mini-2.local
+
+2020-09-08 09:29:03,831 ERROR 4394 [-/127.0.0.1/-/1ms GET /pages/13246a2d6a] nodejs.ReferenceError: page_id is not defined
+    at HomeController.show (/Users/admin/Desktop/Vue/egg-test/app/controller/pages.js:17:58)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Desktop/Vue/egg-test/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Desktop/Vue/egg-test/node_modules/koa-compose/index.js:36:12
+
+pid: 4394
+hostname: admindeMac-mini-2.local
+
